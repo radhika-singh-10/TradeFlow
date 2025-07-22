@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+flask
+pika
+redis
+pymongo
+streamlit
