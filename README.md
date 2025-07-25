@@ -24,10 +24,10 @@ TradeFlowX enables real-time LTP (Last Traded Price) streaming, concurrent execu
 [ Market Price API (FastAPI) ]
           │
           ▼
-   [ Redis Pub/Sub ]   ─────────────► (Your Trading Bots / Subscribers)
+[ Redis Pub/Sub ]   ─────────────► (Your Trading Bots / Subscribers)
           │
           ▼
-    [ RabbitMQ Queue ] ◄── [ Order Placement (Flask API) ]
+[ RabbitMQ Queue ] ◄── [ Order Placement (Flask API) ]
           │
           ▼
 [ Order Worker / Processor ] ──► [ MongoDB ]
